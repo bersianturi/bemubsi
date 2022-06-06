@@ -95,7 +95,7 @@
 
 
 	// Page loading animation
-	$(window).on('load', function() {
+	$(document).ready(function() {
 		if($('.cover').length){
 			$('.cover').parallax({
 				imageSrc: $('.cover').data('image'),
@@ -103,7 +103,7 @@
 			});
 		}
 
-		$("#preloader").animate({
+		$("#preloader").delay(2000).animate({
 			'opacity': '0'
 		}, 600, function(){
 			setTimeout(function(){
