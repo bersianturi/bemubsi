@@ -375,7 +375,7 @@ header
 */
 .header-area {
   position: fixed;
-  top: 30px;
+  top: 20px;
   left: 0px;
   right: 0px;
   z-index: 100;
@@ -524,29 +524,6 @@ header
   top: 10px;
 }
 
-.header-area .main-nav .menu-trigger.active span,
-.header-area .main-nav .menu-trigger.active span:before,
-.header-area .main-nav .menu-trigger.active span:after {
-  background-color: transparent;
-  width: 100%;
-}
-
-.header-area .main-nav .menu-trigger.active span:before {
-  -moz-transform: translateY(6px) translateX(1px) rotate(45deg);
-  -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
-  -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
-  transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #3B566E;
-}
-
-.header-area .main-nav .menu-trigger.active span:after {
-  -moz-transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #3B566E;
-}
-
 .header-area.header-sticky {
   min-height: 80px;
 }
@@ -561,11 +538,6 @@ header
 
 .header-area.header-sticky .nav li a {
   color: #1e1e1e;
-}
-
-.header-area.header-sticky .nav li a.active {
-  color: #fff;
-  background-color: #2E3192;
 }
 
 @media (max-width: 1200px) {
@@ -594,7 +566,7 @@ header
   .header-area .main-nav .logo img{
     height: 40px;
   }
-  .header-area .menu-trigger {
+  .header-area  .menu-trigger {
     display: block !important;
   }
   .header-area .main-nav {
@@ -656,6 +628,7 @@ welcome
   background-position: center center;
   background-size: cover; 
   height: 100vh;
+  margin-bottom: 100px;
 }
 
 .welcome-area .header-text {
@@ -669,7 +642,7 @@ welcome
 .welcome-area .header-text .logokabinet img{
   position: relative;
   width: 15%;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .welcome-area .header-text h1 {
@@ -687,7 +660,7 @@ welcome
   color: #fff;
   line-height: 25px;
   letter-spacing: 0.25px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   position: relative;
 }
 
@@ -732,9 +705,9 @@ welcome
   }
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .welcome-area {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
   .welcome-area .header-text {
     top: 50% !important;
@@ -748,7 +721,7 @@ welcome
     font-weight: 600;
     font-size: 22px !important;
     line-height: 30px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 30px !important;
   }
   .welcome-area .header-text h1 span {
     color: #fff;
@@ -757,8 +730,8 @@ welcome
     text-align: center;
     color: #fff;
     font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 20px;
+    line-height: 22px;
+    margin-bottom: 40px;
   }
   .welcome-area .header-text .logokabinet img{
     width: 30%;
@@ -772,6 +745,16 @@ welcome
 features
 --------------------------------------------- 
 */
+h1{
+  text-align: center;
+  font-size: 24px;
+  
+}
+h2{
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
 .features-small-item {
   cursor: pointer;
   display: block;
@@ -791,7 +774,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #1e2261;
 }
 
 .features-small-item .icon {
@@ -804,8 +787,8 @@ features
   line-height: 90px;
   margin: auto;
   position: relative;
-  margin-bottom: 30px;
-  background: #8261ee;
+  margin-bottom: 20px;
+  background: #2E3192;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -821,7 +804,7 @@ features
   font-size: 18px;
   color: #1e1e1e;
   letter-spacing: 0.7px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   position: relative;
   z-index: 2;
 }
@@ -845,15 +828,40 @@ features
 .home-feature {
   padding-bottom: 0px;
   padding-top: 30px;
-  margin-top: -220px;
+  
   z-index: 9;
+}
+#visi{
+  text-align: justify;
+}
+
+#misi ul li{
+  text-align: justify;
+  list-style-type: decimal;
+  margin-bottom: 0px;
+  display: list-item;
+}
+
+#tujuan ul li{
+  text-align: justify;
+  list-style-type: decimal;
+  margin-bottom: 0px;
+  display: list-item;
 }
 
 @media (max-width: 991px) {
+  h1{
+    font-size: 20px;
+  }
+  
+  h2{
+    font-size: 25px;
+  }
+
   .home-feature {
     padding-bottom: 0px;
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: -80px;
   }
 }
 
@@ -1531,7 +1539,7 @@ preloader
 --------------------------------------------- 
 */
 #preloader {
-  overflow: visible;
+  overflow: hidden;
   background-image: linear-gradient(135deg, #2E3192 0%, #352e92 100%);
   left: 0;
   right: 0;
