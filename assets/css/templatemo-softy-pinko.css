@@ -833,19 +833,20 @@ h2{
 }
 #visi{
   text-align: justify;
+  margin: 0px 30px;
 }
 
 #misi ul li{
   text-align: justify;
   list-style-type: decimal;
-  margin-bottom: 0px;
+  margin: 0px 30px;
   display: list-item;
 }
 
 #tujuan ul li{
   text-align: justify;
   list-style-type: decimal;
-  margin-bottom: 0px;
+  margin: 0px 30px;
   display: list-item;
 }
 
@@ -856,6 +857,10 @@ h2{
   
   h2{
     font-size: 25px;
+  }
+
+  .imgvmt img{
+    width: 40%;
   }
 
   .home-feature {
