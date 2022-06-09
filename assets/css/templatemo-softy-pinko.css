@@ -850,6 +850,13 @@ h2{
   display: list-item;
 }
 
+#fungsi ul li{
+  text-align: justify;
+  list-style-type: decimal;
+  margin: 0px 30px;
+  display: list-item;
+}
+
 @media (max-width: 991px) {
   h1{
     font-size: 20px;
