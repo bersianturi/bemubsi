@@ -114,12 +114,10 @@ body {
 
 ::selection {
   background: transparent;
-  color: #fff;
 }
 
 ::-moz-selection {
   background: transparent;
-  color: #fff;
 }
 
 .section {
@@ -367,6 +365,48 @@ button.main-button:hover {
   background-color: #ff589e;
 }
 
+/* 
+---------------------------------------------
+back to top buton
+--------------------------------------------- 
+*/
+
+#button {
+  display: inline-block;
+  background-color: #2E3192;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #6771ff;
+}
+#button:active {
+  background-color: #6771ff;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
 
 /* 
 ---------------------------------------------
@@ -756,7 +796,6 @@ h2{
   font-weight: 700;
 }
 .features-small-item {
-  cursor: pointer;
   display: block;
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
@@ -774,7 +813,7 @@ h2{
 }
 
 .features-small-item:hover .icon {
-  background-color: #1e2261;
+  background-color: #6771ff;
 }
 
 .features-small-item .icon {
@@ -1380,8 +1419,8 @@ blog
   margin-bottom: 20px !important;
 }
 
-.blog-post-thumb h3 a {
-  font-weight: 500;
+.blog-post-thumb h3 {
+  font-weight: 600;
   font-size: 18px;
   color: #1e1e1e;
   letter-spacing: 0.25px;
@@ -1392,8 +1431,8 @@ blog
   transition: all 0.3s ease 0s;
 }
 
-.blog-post-thumb h3 a:hover {
-  color: #ff589e;
+.blog-post-thumb h3:hover {
+  color: #2E3192;
 }
 
 .blog-post-thumb .text {
