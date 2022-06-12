@@ -112,7 +112,7 @@
 	}
 
 	//Back To Top Button
-	var btn = $('#button');
+	var btn = $('#back-to-top');
 
 	$(window).scroll(function() {
   		if ($(window).scrollTop() > 300) {
@@ -122,10 +122,10 @@
   		}
 	});
 
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
-});
+	btn.on('click', function(e) {
+  		e.preventDefault();
+  		$('html, body').animate({scrollTop:0}, '300');
+	});
 
 
 })(window.jQuery);
