@@ -9,7 +9,7 @@
 <a href="https://github.com/bersianturi/bemubsi/pulls"><img src="https://img.shields.io/github/issues-pr/bersianturi/bemubsi" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/bersianturi/bemubsi/issues"><img src="https://img.shields.io/github/issues/bersianturi/bemubsi" alt="Issues Badge"/></a>
 <a href="https://github.com/bersianturi/bemubsi/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/bersianturi/bemubsi?color=2b9348"></a>
-<a href="https://github.com/bersianturi/bemubsi/blob/master/LICENSE"><img src="https://img.shields.io/github/license/bersianturi/bemubsi?color=2b9348" alt="License Badge"/></a>
+<a href="https://github.com/bersianturi/bemubsi/blob/master/LICENSE"><img src="https://img.shields.io/github/license/bersianturi/bemubsi" alt="License Badge"/></a>
 </div>
 <br>
 <div align="center">
