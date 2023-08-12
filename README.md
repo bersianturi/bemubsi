@@ -32,14 +32,14 @@ _Below is an example of how you can instruct your audience on installing and set
 
 * Clone the repo
   ```sh
-  git clone https://github.com/your_username_/Project-Name.git
+  git clone https://github.com/bersianturi/bemubsi.git
   ```
 
 ## Website
 
-Link : https://awesome-github-readme-profile.netlify.app
+Link : https://bersianturi.github.io/bemubsi
 
-<a href="https://bersianturi.github.io/bemubsi"><img src="preview.jpg" alt="Awesome README Templates" /></a>
+<a href="https://bersianturi.github.io/bemubsi"><img src="preview.jpg" alt="BEM UBSI Kab. Banyumas Kabinet Shankara 2022" /></a>
 
 
 <!-- CONTRIBUTING -->
@@ -51,12 +51,11 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -65,7 +64,6 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
